@@ -1,6 +1,6 @@
-import * as Y from "yjs";
-import { UndoManager } from "yjs";
-import { WebsocketProvider } from "y-websocket";
+import * as Y from "./node_modules/yjs";
+// import { UndoManager } from "yjs";
+import { WebsocketProvider } from "./node_modules/y-websocket";
 import { GLTFLoader } from "/node_modules/three/examples/jsm/loaders/GLTFLoader.js";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import * as THREE from "three";
