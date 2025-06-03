@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>three.js</title>
+    <title>three.js ar - lighting estimation</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -11,14 +11,6 @@
     
   </head>
   <body>
-    <script type="importmap">
-      {
-        "imports": {
-          "three": "./node_modules/three/build/three.module.js",
-          "three/addons/": "./node_modules/three/examples/jsm/"
-        }
-      }
-    </script>
      <div>
       <div class="sidebar">
         <button id="share">Share Session</button>
@@ -63,8 +55,15 @@
 
 
     </div> 
-   
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "./node_modules/three/build/three.module.js",
+          "three/addons/": "./node_modules/three/examples/jsm/"
+        }
+      }
+    </script>
 
-    <script type="module" src="index.js"></script>
+    <script type="module" src="collaboration.js"></script>
   </body>
 </html>
