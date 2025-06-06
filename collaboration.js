@@ -1,8 +1,8 @@
-import * as Y from "yjs";
 import { WebsocketProvider } from "y-websocket";
 import { GLTFLoader } from "three/examples/jsm/Addons.js";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import * as THREE from "three";
+import * as Y from "yjs";
 
 let model;
 let container;
