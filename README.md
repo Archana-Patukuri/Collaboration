@@ -33,11 +33,14 @@ Users can explore a 3D model together, chat live, and share camera movements acr
    cd Collaboration
    
 2. Install dependencies
+ ```bash
 npm install
 
 3. Start WebSocket server
+```bash
 npx y-websocket-server
 
-4. npm run dev
+4.```bash
+ npm run dev
 
 
